@@ -4,7 +4,7 @@ import "./Logo.css";
 const Logo = () => {
   return (
     <Link className="header__logo" to="/">
-      <img src="" alt="logog" />
+      <img src="" alt="" />
     </Link>
   );
 };
