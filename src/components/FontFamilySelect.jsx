@@ -47,7 +47,7 @@ const FontFamilySelect = () => {
         <span className="select__btn-text">{selectValue}</span>
         <img
           className="select__btn-icon"
-          src="src\assets\images\icon-arrow-down.svg"
+          src=".\images\icon-arrow-down.svg"
           alt=""
         />
       </div>

@@ -44,7 +44,7 @@ const SearchBar = () => {
           onInput={(e) => setInputValue(e.target.value)}
         />
         <button className="search-bar__submit-btn">
-          <img src="src\assets\images\icon-search.svg" alt="" />
+          <img src=".\images\icon-search.svg" alt="" />
         </button>
         {isInputValide ? (
           ""
