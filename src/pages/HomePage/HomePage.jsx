@@ -8,7 +8,7 @@ const HomePage = ({ data }) => {
   data = data[0];
   const meanings = data?.meanings;
   const audio = data?.phonetics.find(
-    (e) => e.audio.length !== 0 && e?.audio
+    (item) => item.audio.length !== 0 && item?.audio
   )?.audio;
 
   return (

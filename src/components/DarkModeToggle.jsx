@@ -1,13 +1,21 @@
 import "./DarkModeToggle.css";
-import toggleDarkMode from "../utils/toggleDarkMode.js";
+import darkMode from "../utils/darkMode.js";
+import isDarkThemePrefered from "../utils/isDarkThemePrefered.js";
+import { useEffect } from "react";
 
 const DarkModeToggle = () => {
+  useEffect(() => {
+    darkMode(isDarkThemePrefered());
+  }),
+    [];
+
   return (
     <label className="header__dark-mode-toggle">
       <input
         className="header__dark-mode-checkbox"
         type="checkbox"
-        onInput={(e) => toggleDarkMode(e.target.checked)}
+        defaultChecked={isDarkThemePrefered()}
+        onInput={(e) => darkMode(e.target.checked)}
       />
       <span className="header__dark-mode-check"></span>
       <svg
