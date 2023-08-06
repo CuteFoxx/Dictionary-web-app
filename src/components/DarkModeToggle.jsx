@@ -6,8 +6,7 @@ import { useEffect } from "react";
 const DarkModeToggle = () => {
   useEffect(() => {
     darkMode(isDarkThemePrefered());
-  }),
-    [];
+  }, [isDarkThemePrefered]);
 
   return (
     <label className="header__dark-mode-toggle">
