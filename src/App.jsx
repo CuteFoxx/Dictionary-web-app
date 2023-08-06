@@ -1,7 +1,7 @@
 import "./App.css";
 import dataContext from "./contexts/dataContext";
 import Header from "./components/Header";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import ErrorPage from "./pages/ErrorPage";
 import SearchBar from "./components/SearchBar";
 import { useState } from "react";
