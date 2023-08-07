@@ -1,28 +1,4 @@
-@font-face {
-  font-family: "Inter", sans-serif;
-  src: url(./assets/fonts/inter/Inter-VariableFont_slnt\wght.ttf)
-    format("ttf-variations");
-  font-weight: 100 1000;
-}
-@font-face {
-  font-family: "Lora", serif;
-  src: url(./assets/fonts/lora/Lora-VariableFont_wght.ttf)
-    format("ttf-variations");
-  font-weight: 100 1000;
-}
-@font-face {
-  font-family: "Lora", serif;
-  font-style: italic;
-  src: url(./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf)
-    format("ttf-variations");
-  font-weight: 100 1000;
-}
-@font-face {
-  font-family: "Inconsolata";
-  src: url(./assets/fonts/inconsolata/Inconsolata-VariableFont_wdth\wght.ttf)
-    format("ttf-variations");
-  font-weight: 100 1000;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap");
 
 :root {
   --purple: #a445ed;

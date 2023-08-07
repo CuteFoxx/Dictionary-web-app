@@ -1,3 +1,4 @@
+import changeBodyFontFamily from "../utils/changeBodyFontFamily";
 import "./FontFamilySelect.css";
 import { useState, useEffect, useRef } from "react";
 
@@ -20,22 +21,6 @@ const FontFamilySelect = () => {
     return document.removeEventListener("click", clickHandler);
   });
 
-  const changeBodyFontFamily = (e) => {
-    setSelectValue(e.target.textContent);
-
-    switch (e.target.textContent) {
-      case "Sans serif":
-        document.body.style.fontFamily = "var(--ff-sans-sefir)";
-        break;
-      case "serif":
-        document.body.style.fontFamily = "var(--ff-sefir)";
-        break;
-      case "mono":
-        document.body.style.fontFamily = "var(--ff-mono)";
-        break;
-    }
-  };
-
   return (
     <div className="header__select select" ref={menuRef}>
       <div
@@ -55,13 +40,22 @@ const FontFamilySelect = () => {
       <ul
         className={`select__options ${open ? "active" : ""}`}
         onClick={(e) => {
-          changeBodyFontFamily(e);
+          if (e.target.tagName === "LI") {
+            setSelectValue(e.target.textContent);
+            changeBodyFontFamily(e);
+          }
           setOpen(!open);
         }}
       >
-        <li className="select__option">Sans serif</li>
-        <li className="select__option">serif</li>
-        <li className="select__option">mono</li>
+        <li className="select__option" data-font-family="sans serif">
+          Sans serif
+        </li>
+        <li className="select__option" data-font-family="serif">
+          serif
+        </li>
+        <li className="select__option" data-font-family="mono">
+          mono
+        </li>
       </ul>
     </div>
   );
