@@ -16,12 +16,12 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](src\assets\images\screenshots\Screenshot_1.png)
-![](src\assets\images\screenshots\Screenshot_2.png)
-![](src\assets\images\screenshots\Screenshot_3.png)
-![](src\assets\images\screenshots\Screenshot_4.png)
-![](src\assets\images\screenshots\Screenshot_5.png)
-![](src\assets\images\screenshots\Screenshot_6.png)
+![](./src\assets\images\screenshots\Screenshot_1.png)
+![](./src\assets\images\screenshots\Screenshot_2.png)
+![](./src\assets\images\screenshots\Screenshot_3.png)
+![](./src\assets\images\screenshots\Screenshot_4.png)
+![](./src\assets\images\screenshots\Screenshot_5.png)
+![](./src\assets\images\screenshots\Screenshot_6.png)
 
 ### Links
 
