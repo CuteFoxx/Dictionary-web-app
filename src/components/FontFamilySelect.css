@@ -82,3 +82,9 @@ body.dark-mode .select__options {
 [data-font-family="sans serif"] {
   font-family: var(----ff-sans-sefir);
 }
+
+@media screen and (max-width: 375px) {
+  .select__btn-text {
+    font-size: var(--fs-text-s);
+  }
+}
