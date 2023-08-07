@@ -16,16 +16,16 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./src/assets/images/screenshots/Screenshot_1.png)
-![](./src/assets/images/screenshots/Screenshot_2.png)
-![](./src/assets/images/screenshots/Screenshot_3.png)
-![](./src/assets/images/screenshots/Screenshot_4.png)
-![](./src/assets/images/screenshots/Screenshot_5.png)
-![](./src/assets/images/screenshots/Screenshot_6.png)
+![mobile layout](./src/assets/images/screenshots/Screenshot_1.png)
+![mobile layout dark mode](./src/assets/images/screenshots/Screenshot_2.png)
+![desktop layout](./src/assets/images/screenshots/Screenshot_3.png)
+![desktop layout dark mode](./src/assets/images/screenshots/Screenshot_4.png)
+![desktop layout serif](./src/assets/images/screenshots/Screenshot_5.png)
+![desktop layout mono](./src/assets/images/screenshots/Screenshot_6.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/dictionary-webapp-created-using-react-4o-8JGV_5m)
 - Live Site URL: [live site](https://dictionary-web-app-eight-beryl.vercel.app/)
 
 ### Built with
