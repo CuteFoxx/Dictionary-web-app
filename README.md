@@ -21,7 +21,7 @@ This is a solution to the [Dictionary web app challenge on Frontend Mentor](http
 ![](src\assets\images\screenshots\Screenshot_3.png)
 ![](src\assets\images\screenshots\Screenshot_4.png)
 ![](src\assets\images\screenshots\Screenshot_5.png)
-!](src\assets\images\screenshots\Screenshot_6.png)
+![](src\assets\images\screenshots\Screenshot_6.png)
 
 ### Links
 
